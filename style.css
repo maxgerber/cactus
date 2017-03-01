@@ -1,5 +1,5 @@
 html, body {
-    background-color: #000000;
+    background-color: #D3D3D3;
     height: 95%;
 }
 
@@ -9,6 +9,16 @@ main {
     background-color: #778899;
     margin: auto;
 }
+
+section {
+    width: inherit;
+    height: inherit;
+    background-image: url(cactus.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 h1 {
     color: #FFFFFF;
     text-align: center;
