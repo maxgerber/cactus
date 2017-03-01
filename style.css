@@ -1,25 +1,47 @@
 html, body {
     background-color: #D3D3D3;
-    height: 95%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 main {
-    width: 70%;
+    width: 75%;
     height: 100%;
-    background-color: #778899;
+    background-color: dimgray;
+    color: white;
+    opacity: 0.8;
     margin: auto;
+        background-image: url(cactus.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: monospace;
 }
 
 section {
-    width: inherit;
-    height: inherit;
-    background-image: url(cactus.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 60%;
+    height: 100%;
+    margin-left: 2%;
+
 
 }
 
 h1 {
     color: #FFFFFF;
     text-align: center;
+    font-family: monospace;
+    font-size: 6em;
+    margin-right: 1em;
+}
+
+li {
+ padding-top: 1em;   
+}
+
+h2 {
+font-size: 2.5em;
+}
+
+p {
+font-size: 1.2em;
 }
