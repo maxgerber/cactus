@@ -1,5 +1,13 @@
-body {
+html, body {
+    background-color: #D3D3D3;
+    height: 95%;
+}
+
+main {
+    width: 70%;
+    height: 100%;
     background-color: #778899;
+    margin: auto;
 }
 h1 {
     color: #FFFFFF;
