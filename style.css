@@ -1,17 +1,33 @@
 html, body {
     background-color: #D3D3D3;
-    height: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
+    height: 98%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 1%;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: monospace;
+    font-size: 6em;
+    margin-right: 1em;
 }
 
 main {
     width: 85%;
+    padding-top: 0;
     height: 100%;
     background-color: dimgray;
     color: white;
     opacity: 0.8;
-    margin: auto;
+    margin-top 0px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(cactus.svg);
     background-position: right;
     background-repeat: no-repeat;
@@ -24,14 +40,6 @@ section {
     margin-left: 2%;
 
 
-}
-
-h1 {
-    color: #FFFFFF;
-    text-align: center;
-    font-family: monospace;
-    font-size: 6em;
-    margin-right: 1em;
 }
 
 li {
