@@ -21,8 +21,8 @@ h1 {
 nav {
     position: fixed;
     top:0;
-    width: 100%;
-/*    margin-left: 7.5%;*/
+    width: 85%;
+    right: 7.5%;
     z-index: 1;
     background-color: #D3D3D3;
     
@@ -33,8 +33,8 @@ nav {
 
 nav li {
     display: inline-block;
-    width: 33%;
-    height: 30%;
+    width: 33.333%;
+    height: 100%;
     font-size: 3em;
     margin: auto;
     font-family: monospace;  
