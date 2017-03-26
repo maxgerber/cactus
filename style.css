@@ -40,7 +40,9 @@ nav li {
     font-family: monospace;  
     text-align: center;
 }
-
+h3 {
+    font-size: 2em;
+}
 nav a {
     text-decoration: none;
 }
