@@ -21,11 +21,11 @@ h1 {
 nav {
     position: fixed;
     top:0;
-    width: 85%;
-    right: 7.5%;
+    width: 100%;
+    
     z-index: 1;
     background-color: #D3D3D3;
-    
+    text-align:center;
 }
 #spacer {
     height:5%;
@@ -33,7 +33,7 @@ nav {
 
 nav li {
     display: inline-block;
-    width: 33.1%;
+    width: 27%;
     height: 100%;
     font-size: 3em;
     margin: auto;
@@ -81,15 +81,16 @@ main {
 #desert {
     background-color: #EEC170;
     color: darkgray;
-    
+    margin-top:3%;
 }
 
 #water {
     background-color: #4ECDC4;
     color: white;
+    margin-top:3%;
 }
 
-section {
+#cactus section {
     width: 60%;
     height: 100%;
     margin-left: 2%;
@@ -106,4 +107,27 @@ font-size: 2.5em;
 
 p {
 font-size: 1.6em;
+}
+
+#grid {
+    text-align: center;
+    height:80%;
+}
+#grid div{
+    display:inline-block;
+    height:50%;
+    width:30%;
+    
+}
+
+img {
+    width:80%;
+    height:auto;
+    margin-top:5%;
+}
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover { transform: scale(1.1); } {
+    
 }
