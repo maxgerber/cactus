@@ -17,7 +17,7 @@ h1 {
     font-family: monospace;
     font-size: 6em;
     margin-right: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.25em;
 }
 nav {
     position: fixed;
@@ -60,28 +60,6 @@ nav li:nth-child(3) {
     background-color: #4ECDC4; 
 }
 
-aside {
-    position:fixed;
-    width:auto;
-    height:auto;
-    right:0;
-    top:20%;
-    z-index: -2222;
-}
-
-aside li {
-    display:block;
-    font-size:4.5em;
-    margin-bottom:100%;
-    text-decoration: none;
-    z-index: -4000;
-    right:0;
-    padding-left:2%;
-}
-
-aside a {
-    text-decoration: none;
-}
 main {
     width: 85%;
     padding-top: 0;
@@ -108,7 +86,7 @@ main {
     background-color: #EEC170;
     color: darkgray;
     margin-top:3%;
-    width:88%;
+    width:87.5%;
     z-index:-2;
     padding-bottom: 5%;
 }
@@ -117,8 +95,9 @@ main {
     background-color: #4ECDC4;
     color: white;
     margin-top:3%;
-    width:88%;
+    width:87.5%;
     z-index:-3;
+    padding-bottom:5%;
 }
 
 #cactus section {
@@ -155,7 +134,7 @@ font-size: 1.6em;
 }
 
 img {
-    width:80%;
+    width:90%;
     height:auto;
     margin-top:5%;
 }
@@ -171,16 +150,41 @@ img {
 #desert:before { 
   display: block; 
   content: " "; 
-  margin-top: -9%; 
-  height: 9%; 
+  margin-top: -9.5%; 
+  margin-top: -9.5%; 
+  height: 9.5%; 
   visibility: hidden; 
 }
 
 #water:before { 
   display: block; 
   content: " "; 
-  margin-top: -7%; 
-  height: 7%; 
+  margin-top: -9.5%; 
+  height: 9.5%; 
   visibility: hidden; 
 }
 
+footer {
+    width: 87.5%;
+    bottom:0;
+    display:absolute;
+    height:4.5%;
+    background-color:dimgray;
+    text-align:center;
+    margin: auto;
+    margin-top:1%;
+}
+
+footer p {
+    display:inline-block;
+    font-family:monospace;
+    color:white;
+    padding-right:6em;
+    font-size:1em;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
