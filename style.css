@@ -18,19 +18,24 @@ h1 {
     font-size: 6em;
     margin-right: 1em;
     margin-bottom: 0.4em;
-    margin-top: 0.2em;
+    margin-top: 0.7em;
+    text-align: center;
+}
+
+#cc {
+    margin-top: 0;
 }
 nav {
     position: fixed;
     top:0;
     width: 100%;
-    
     z-index: 1;
     background-color: #D3D3D3;
     text-align:center;
 }
+
 #spacer {
-    height:5%;
+    height: 5%;
 }
 
 nav li {
@@ -70,6 +75,7 @@ main {
     margin-right: auto;
     font-family: monospace;
     position: relative;
+    overflow: auto;
 }
 
 #cactus {
@@ -78,7 +84,7 @@ main {
     background-repeat: no-repeat;
     background-color: dimgray;
     color: white;
-    padding-right: 3em;
+    padding-right: 2em;
     margin-top: 4em;
     z-index:0;
 }
@@ -92,19 +98,13 @@ main {
     padding-bottom: 5%;
 }
 
-#water {
+#rain {
     background-color: #4ECDC4;
     color: white;
     margin-top:3%;
     width:87.5%;
     z-index:-3;
     padding-bottom:5%;
-}
-
-#cactus section {
-    width: 60%;
-    height: 100%;
-    margin-left: 2%;
 }
 
 main li {
@@ -157,7 +157,7 @@ img {
   visibility: hidden; 
 }
 
-#water:before { 
+#rain:before { 
   display: block; 
   content: " "; 
   margin-top: -9.5%; 
@@ -188,4 +188,45 @@ footer p {
 footer a {
     text-decoration: none;
     color:white;
+}
+
+@media screen and (max-width: 842px) {
+    .text {
+        display: none;
+    }
+    
+    .emoji {
+        display: inline;
+    }
+    
+    #cactus section {
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+    }
+    
+    #cactus h1 {
+        margin-right: 0;
+    }
+    
+    #cactus p {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 843px) {
+    .text {
+        display: inline;
+    }
+    
+    .emoji {
+        display: none;
+    }
+    
+    #cactus section {
+        width: 60%;
+        height: 100%;
+        margin-left: 2%;
+    }
 }
